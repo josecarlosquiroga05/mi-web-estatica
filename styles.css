@@ -7,15 +7,15 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: rgb(128, 0, 64);
+    color: rgb(255, 255, 0);
     line-height: 1.6;
 }
 
 /* Estilos para la cabecera */
 header {
-    background-color: #4a90e2;
-    color: white;
+    background-color: rgb(255, 128, 64);
+    color: rgb(255, 255, 0);
     padding: 20px;
     text-align: center;
     font-size: 1.5em;
@@ -38,7 +38,7 @@ header .logo {
 /* Estilos para el menú lateral izquierdo */
 .sidebar {
     width: 20%;
-    background-color: #333;
+    background-color: rgb(255, 255, 128);
     padding: 20px;
     color: white;
 }
@@ -52,24 +52,24 @@ header .logo {
 }
 
 .sidebar ul li a {
-    color: white;
+    color: rgb(128, 0, 64);
     text-decoration: none;
     font-size: 1.1em;
 }
 
 .sidebar ul li a:hover {
-    color: #4a90e2;
+    color: rgb(128, 255, 0);
 }
 
 /* Estilos para el contenido principal */
 .main-content {
     flex-grow: 1;
     padding: 20px;
-    background-color: #fff;
+    background-color: rgb(128, 0, 64);
 }
 
 .main-content h2 {
-    color: #333;
+    color: rgb(255, 0, 0);
 }
 
 .main-content p {
@@ -80,8 +80,8 @@ header .logo {
 button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #4a90e2;
-    color: white;
+    background-color: rgb(0, 0, 0);
+    color: rgb(128, 128, 0);
     border: none;
     cursor: pointer;
     border-radius: 5px;
